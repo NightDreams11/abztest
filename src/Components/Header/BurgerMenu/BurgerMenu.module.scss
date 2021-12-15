@@ -1,0 +1,71 @@
+$Nunito: "Nunito", sans-serif;
+
+.blur {
+    width: 100vh;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.main {
+    position: relative;
+    //--------------------// Решение проблемы прокрутки большого мобильного меню при маленьком разрешении
+    width: 270px;
+    height: 895px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    //--------------------//
+    background-color: #fff;
+    z-index: 20;
+    a img {
+        padding-top: 17px;
+        display: inline;
+        margin-left: -150px;
+    }
+    ul {
+        text-align: left;
+        padding-left: 16px;
+        padding-top: 30px;
+        width: 218px;
+        z-index: 3;
+    }
+    ul a {
+        cursor: pointer;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    ul li:not(:nth-child(1)):nth-child(5n + 1) {
+        padding-top: 60px;
+    }
+    ul li:not(:nth-child(5n + 1)) {
+        padding-top: 22px;
+    }
+
+    .header_li {
+        position: relative;
+    }
+
+    .link:nth-child(1n + 1)::before {
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: 254px;
+        background-color: #00bdd3;
+        opacity: 0;
+        border-radius: 4px;
+        transition: 0.3s;
+        margin-top: -7px;
+        left: -8px;
+    }
+
+    .link:hover::before {
+        opacity: 0.1;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu ul {
+        display: block;
+    }
+}

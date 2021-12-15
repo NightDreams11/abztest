@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box; /* Все элементы страницы будут включать в свои размеры padding и margin */
+  margin: 0;
+}
+a {
+  text-decoration: none; /* Убирает подчеркивание ссылок, т.к. применимо к тегу <a></a> */
+  display: inline-block; /* Делаем элемент строчным */
+  color: #000;
+}
+ul,
+li {
+  list-style: none; /* Убирает у списков маркировки */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden; //Убирает горизонтальный скрол в мобильной версии сайта
+}
+
+body {
+  position: relative;
+  margin: 0;
+  overflow-x: hidden; // Убирает прокрутку по горизонтали, когда div с картинкой внутри получил отрицательные значения left при position: absolute. Контент расположился за контейнером, но данное решение помогло с проблемой.
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

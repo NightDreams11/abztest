@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { connect } from 'react-redux';
+import About from './Components/About/About';
+import Footer from './Components/Footer/Footer';
+import HeaderContainer from './Components/Header/HeaderContainer';
+import Main from './Components/Main/Main';
+import UsersContainer from './Components/Users/UsersContainer';
+import RegFormContainer from './Components/RegForm/RegFormContainer';
+import Modal from './Components/Modal/Modal';
+import styles from './App.module.scss';
+import { toggleModalAC } from './redux/users-reducer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  render() {
+    return <div>
+      <HeaderContainer></HeaderContainer>
+      <Main></Main>
+      <About></About>
+      <UsersContainer></UsersContainer>
+      <RegFormContainer></RegFormContainer>
+      <Footer></Footer>
+      <div className={this.props.toggleModalValue ? styles.modalOpen : styles.modalClosed}>
+        <Modal toggleModal={this.props.toggleModal}></Modal>
+      </div>
+    </div >
+  }
 }
 
-export default App;
+let mapStateToProps = (state) => {
+  return {
+    toggleModalValue: state.usersPage.toggleModal
+  }
+}
+
+let mapDispatchToProps = (dispatch) => {
+  return {
+    toggleModal: (toggleModal) => {
+      dispatch(toggleModalAC(toggleModal))
+    }
+  }
+}
+
+const AppContainer = connect(mapStateToProps, mapDispatchToProps)(App)
+
+export default AppContainer;

@@ -1,0 +1,17 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 148px;
+    text-align: center;
+    background-color: #B4B4B4;
+    border-radius: 80px;
+    transition: 0.5s all;
+    a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: 'Nunito', sans-serif;
+    }
+}

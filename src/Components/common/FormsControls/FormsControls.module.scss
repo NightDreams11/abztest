@@ -1,0 +1,137 @@
+$Nunito: "Nunito", sans-serif;
+
+.formControl {
+    position: relative;
+}
+
+.formControl.error input {
+    border: 2px solid #cb3d40;
+    margin-left: -2px;
+}
+
+.formControl.active textarea,
+.formControl.active input {
+    border: 2px solid #00bdd3;
+    margin-left: -2px;
+}
+
+.textarea {
+    position: relative;
+    resize: none;
+    width: 297px;
+    height: 54px;
+    border: 1px solid #d0cfcf;
+    border-left: 0px;
+    background-color: transparent;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+
+    font-size: 16px;
+    line-height: 26px;
+    font-family: $Nunito;
+    font-weight: 400;
+
+    padding-top: 13px;
+    padding-left: 16px;
+}
+.textarea.error {
+    position: relative;
+    resize: none;
+    width: 297px;
+    height: 54px;
+    border: 2px solid #cb3d40;
+    border-left: 0px; // Убираем 1 границу, чтобы сумма границ была 2px
+    background-color: transparent;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+
+    font-size: 16px;
+    line-height: 26px;
+    font-family: $Nunito;
+    font-weight: 400;
+
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.textarea::placeholder {
+    position: absolute;
+    top: 13px; // Половина высоты от line-height
+    left: 16px;
+    color: #7e7e7e;
+}
+.InputLabelError {
+    border: 2px solid #cb3d40;
+    border-radius: 4px;
+    width: 380px;
+    height: 54px;
+
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.spanError {
+    color: #cb3d40;
+    position: absolute;
+    left: 11px;
+    bottom: -34px;
+}
+.spanErrorFortextaream {
+    color: #cb3d40;
+    position: absolute;
+    left: 11px;
+    bottom: -13px;
+}
+
+.container {
+    display: flex;
+    padding-top: 50px;
+}
+.inputPhoto {
+    display: none;
+}
+.label {
+    width: 83px;
+    height: 54px;
+    border: 1px solid #000000de;
+    border-radius: 4px 0 0 4px;
+
+    font-size: 16px;
+    line-height: 26px;
+    font-family: $Nunito;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label.error {
+    width: 83px;
+    height: 54px;
+    border: 2px solid #cb3d40;
+    border-radius: 4px 0 0 4px;
+
+    font-size: 16px;
+    line-height: 26px;
+    font-family: $Nunito;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding-top: 48px;
+}
+
+@media (max-width: 360px) {
+    .textarea {
+        width: 245px;
+    }
+    .textarea.error {
+        width: 245px;
+    }
+}

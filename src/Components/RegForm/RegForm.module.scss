@@ -1,0 +1,175 @@
+$Nunito: "Nunito", sans-serif;
+
+.regForm {
+    min-height: 900px;
+    background-color: #f8f8f8;
+    h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: $Nunito;
+        padding-top: 170px;
+    }
+    h2 {
+        padding-top: 10px;
+        margin: 0;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .footprint {
+        position: relative;
+        min-height: 177px;
+    }
+    .footprintImgBig {
+        position: absolute;
+        left: 688px;
+    }
+    .footprintImgMid,
+    .footprintImgLow {
+        display: none;
+    }
+}
+.form {
+    padding-top: 32px;
+    .formContainer {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .fieldEmail,
+    .fieldPhone {
+        padding-top: 50px;
+    }
+    .inputName,
+    .inputEmail,
+    .inputPhone {
+        width: 380px;
+        height: 54px;
+        border: 1px solid #d0cfcf;
+        background: transparent; //Прозрачный фон у placeholder
+        border-radius: 4px;
+        outline: none;
+    }
+    .inputName::placeholder,
+    .inputEmail::placeholder,
+    .inputPhone::placeholder {
+        color: #7e7e7e;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: $Nunito;
+        font-weight: 400;
+        padding-left: 15px;
+    }
+    .positionsGroup {
+        text-align: left;
+        padding-top: 43px;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 16px;
+        line-height: 26px;
+        .positions {
+            padding-top: 18px;
+        }
+        .positionsInput {
+            position: relative;
+            font-size: 16px;
+            line-height: 26px;
+            font-family: $Nunito;
+            font-weight: 400;
+        }
+        .positionsInput:not(:nth-child(1)) {
+            padding-top: 13px;
+        }
+        .inputRadio {
+            appearance: none; //Если использовать display: none, padding и margin не работают
+            padding-left: 32px;
+        }
+        .labelForInputRadio::before {
+            content: "";
+            position: absolute;
+            left: 0;
+
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 1px solid #d0cfcf;
+            background-color: transparent;
+        }
+        .labelForInputRadio::after {
+            content: "";
+            position: absolute;
+            left: 6px;
+            margin-top: 6px;
+            opacity: 0;
+
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background-color: #00bdd3;
+        }
+        .inputRadio:checked + .labelForInputRadio::before {
+            border-color: #00bdd3;
+        }
+        .inputRadio:checked + .labelForInputRadio::after {
+            opacity: 1;
+        }
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .regForm {
+        .footprintImgBig {
+            display: none;
+        }
+        .footprintImgMid {
+            position: absolute;
+            right: -60px;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .regForm {
+        .footprintImgMid {
+            position: absolute;
+            right: -23px;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .regForm {
+        h1 {
+            padding: 145px 20px 0px;
+        }
+        .footprintImgMid {
+            bottom: 0px;
+            left: 0px;
+        }
+        .footprintImgMid img {
+            width: 328px;
+            height: 124px;
+            margin-bottom: -4px;
+        }
+    }
+    .form {
+        .formContainer {
+            width: 328px;
+        }
+        .inputName,
+        .inputEmail,
+        .inputPhone {
+            width: 328px;
+        }
+    }
+}

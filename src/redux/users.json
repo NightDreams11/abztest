@@ -1,0 +1,213 @@
+{
+    "success": true,
+    "total_pages": 3,
+    "total_users": 45,
+    "count": 20,
+    "page": 1,
+    "links": {
+        "next_url": "https:\/\/frontend-test-assignment-api.abz.agency\/api\/v1\/users?page=2&count=20",
+        "prev_url": null
+    },
+    "users": [
+        {
+            "id": 1,
+            "name": "Leanne West",
+            "email": "onie34@lubowitz.com",
+            "phone": "+380936050764",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6596d3bb1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Ahmad Rodriguez",
+            "email": "isadore08@zulauf.biz",
+            "phone": "+380993215621",
+            "position": "Security",
+            "position_id": 3,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6596f0072.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Jeromy Schultz",
+            "email": "gladys74@emmerich.com",
+            "phone": "+380957332233",
+            "position": "Security",
+            "position_id": 3,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a659709143.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Lorine Hoppe",
+            "email": "ozella.block@wiza.com",
+            "phone": "+380996727011",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65971a714.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Peaches-Honeyblossom-Michelle-Charlotte-Angel-Vanessa",
+            "email": "peaches.honeyblossom.michelle.charlotte.angel.vanessa@gmail.com",
+            "phone": "+380672278518",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65972a8f5.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Thomas Nienow",
+            "email": "dfay@gmail.com",
+            "phone": "+380998736377",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65973cf06.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Jerry McLaughlin",
+            "email": "camryn21@yahoo.com",
+            "phone": "+380953248527",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65974c367.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Leon Lakin",
+            "email": "dkling@gmail.com",
+            "phone": "+380996393153",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65975c4c8.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Alvah Goyette",
+            "email": "nicola43@ullrich.biz",
+            "phone": "+380938289576",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65976cf19.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "Lorena Conroy",
+            "email": "jerrold.bartell@yahoo.com",
+            "phone": "+380998246235",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65977df010.jpeg"
+        },
+        {
+            "id": 11,
+            "name": "Adolph Blaine Charles David Earl Frederick",
+            "email": "adolph.blaine.charles.david.earl.frederick@gmail.com",
+            "phone": "+380951644437",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a659790c511.jpeg"
+        },
+        {
+            "id": 12,
+            "name": "Olaf Gutkowski",
+            "email": "gabriella41@gmail.com",
+            "phone": "+380938368097",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597a29012.jpeg"
+        },
+        {
+            "id": 13,
+            "name": "Vicky Kovacek",
+            "email": "keegan98@cormier.biz",
+            "phone": "+380995231803",
+            "position": "Content manager",
+            "position_id": 2,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597b1bc13.jpeg"
+        },
+        {
+            "id": 14,
+            "name": "Wolfeschlegelsteinhausenbergerdorffvoraltern",
+            "email": "wolfeschlegelsteinhausenbergerdorffvoraltern@gmail.com",
+            "phone": "+380678586859",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597c0ac14.jpeg"
+        },
+        {
+            "id": 15,
+            "name": "Linnea Ryan",
+            "email": "liana.sauer@little.net",
+            "phone": "+380678976897",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/placeholders\/placeholder.png"
+        },
+        {
+            "id": 16,
+            "name": "Melvina Jerde",
+            "email": "wilderman.jennings@hotmail.com",
+            "phone": "+380937472660",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597d98216.jpeg"
+        },
+        {
+            "id": 17,
+            "name": "Jolie Harris",
+            "email": "vcrooks@kub.com",
+            "phone": "+380994446844",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597ebd817.jpeg"
+        },
+        {
+            "id": 18,
+            "name": "Ceasar Borer",
+            "email": "ngreen@gmail.com",
+            "phone": "+380994049504",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6597fb7518.jpeg"
+        },
+        {
+            "id": 19,
+            "name": "Kaitlyn Rolfson",
+            "email": "katharina71@vandervort.com",
+            "phone": "+380950634140",
+            "position": "Security",
+            "position_id": 3,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a65980bca19.jpeg"
+        },
+        {
+            "id": 20,
+            "name": "Aiden Bergnaum",
+            "email": "west.howell@oreilly.com",
+            "phone": "+380996443156",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1604494937,
+            "photo": "https:\/\/frontend-test-assignment-api.abz.agency\/images\/users\/5fa2a6598fe0b20.jpeg"
+        }
+    ]
+}

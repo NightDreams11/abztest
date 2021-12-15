@@ -1,0 +1,110 @@
+$Nunito: "Nunito", sans-serif;
+
+.about {
+    min-height: 520px;
+    background-color: #f8f8f8;
+}
+.container_items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+}
+.img_item2,
+.img_item3 {
+    display: none;
+}
+.text_item {
+    max-width: 680px;
+    text-align: right;
+    h1 {
+        margin: 0;
+        padding-top: 28px;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: $Nunito;
+    }
+    h2 {
+        padding-top: 10px;
+        margin: 0;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        font-family: $Nunito;
+    }
+    .text {
+        padding-top: 20px;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .button_text {
+        height: 50px;
+        padding-top: 32px;
+        position: relative;
+        .button_text_div {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        min-height: 537px;
+    }
+    .container_items {
+        padding-top: 175px;
+        min-height: 729px;
+    }
+    .img_item1 {
+        display: none;
+    }
+    .img_item3 {
+        display: block;
+        padding-top: 50px;
+        max-width: 296px;
+        max-height: 362px;
+    }
+    .text_item {
+        max-width: 396px;
+        min-height: 402px;
+        h1 {
+            padding-top: 0px;
+            max-width: 396px;
+        }
+        h2 {
+            max-width: 396px;
+        }
+        .text {
+            max-width: 368px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .container_items {
+        display: block;
+        padding-top: 145px;
+    }
+    .img_item2 {
+        display: block;
+    }
+    .img_item3 {
+        display: none;
+    }
+    .text_item {
+        text-align: left;
+        height: 450px;
+        padding-top: 40px;
+        .button_text {
+            padding-top: 40px;
+            position: relative;
+            .button_text_div {
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+}

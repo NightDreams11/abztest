@@ -1,0 +1,51 @@
+$Nunito: "Nunito", sans-serif;
+
+.blur {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal {
+    height: 194px;
+    width: 452px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.ContainerText {
+    padding: 22px 0 0 24px;
+    text-align: left;
+}
+h3 {
+    margin: 0;
+    font-family: $Nunito;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+}
+.text {
+    padding-top: 14px;
+    font-family: $Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.button {
+    padding-top: 38px;
+    display: flex;
+    justify-content: right;
+    padding-right: 24px;
+}
+
+@media (max-width: 360px) {
+    .modal {
+        height: 220px;
+        width: 328px;
+    }
+}

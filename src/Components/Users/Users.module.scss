@@ -1,0 +1,137 @@
+$Nunito: "Nunito", sans-serif;
+
+.users {
+    padding-top: 175px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.container_inner {
+    h1 {
+        margin: 0;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: $Nunito;
+    }
+    .title_h2 {
+        padding-top: 10px;
+        margin: 0;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .users_container {
+        position: relative;
+        padding-top: 39px;
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        min-height: 999px;
+    }
+    .usersPreloader {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .button {
+        padding-top: 32px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.users_item {
+    background-color: #fff;
+    position: relative;
+    height: 313px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.users_container_inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 36px;
+    height: 249px;
+    width: 310px;
+    .photo {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .name {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-height: 56px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis; //троеточее при переполнении в связке с overflow: hidden
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .position {
+        max-height: 104px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 400;
+        font-family: $Nunito;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .users_item {
+        width: 282px;
+    }
+    .users_container_inner {
+        width: 222px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_inner {
+        .users_container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+        }
+    }
+    .users_item {
+        width: 344px;
+    }
+    .users_container_inner {
+        width: 284px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container_inner {
+        .users_container {
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+        .button {
+            padding-top: 50px;
+        }
+    }
+    .users_item {
+        width: 328px;
+        height: 313px;
+    }
+    .users_container_inner {
+        width: 268px;
+    }
+}

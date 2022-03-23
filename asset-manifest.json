@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/abztest/static/css/main.4a629819.chunk.css",
+    "main.js": "/abztest/static/js/main.e23c273b.chunk.js",
+    "main.js.map": "/abztest/static/js/main.e23c273b.chunk.js.map",
+    "runtime-main.js": "/abztest/static/js/runtime-main.51bf0b84.js",
+    "runtime-main.js.map": "/abztest/static/js/runtime-main.51bf0b84.js.map",
+    "static/js/2.a1e6a0bd.chunk.js": "/abztest/static/js/2.a1e6a0bd.chunk.js",
+    "static/js/2.a1e6a0bd.chunk.js.map": "/abztest/static/js/2.a1e6a0bd.chunk.js.map",
+    "static/js/3.7d44f737.chunk.js": "/abztest/static/js/3.7d44f737.chunk.js",
+    "static/js/3.7d44f737.chunk.js.map": "/abztest/static/js/3.7d44f737.chunk.js.map",
+    "index.html": "/abztest/index.html",
+    "static/css/main.4a629819.chunk.css.map": "/abztest/static/css/main.4a629819.chunk.css.map",
+    "static/js/2.a1e6a0bd.chunk.js.LICENSE.txt": "/abztest/static/js/2.a1e6a0bd.chunk.js.LICENSE.txt",
+    "static/media/Photo-cover.fb98cf13.svg": "/abztest/static/media/Photo-cover.fb98cf13.svg",
+    "static/media/rolling.7a528569.svg": "/abztest/static/media/rolling.7a528569.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51bf0b84.js",
+    "static/js/2.a1e6a0bd.chunk.js",
+    "static/css/main.4a629819.chunk.css",
+    "static/js/main.e23c273b.chunk.js"
+  ]
+}
